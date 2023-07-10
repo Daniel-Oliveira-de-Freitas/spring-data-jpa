@@ -14,7 +14,7 @@ public class SpringDataService {
     }
 
     @Transactional
-    public static SpringDataModel save(SpringDataModel springDataModel) {
+    public SpringDataModel save(SpringDataModel springDataModel) {
         return springDataRepository.save(springDataModel);
     }
 }
